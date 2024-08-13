@@ -59,15 +59,7 @@ background-color: rgb(134, 169, 74);
 .item:nth-child(12){
     background-color: red;
 }
-
-
-
-
-
-
-
-
-/* .la {
+.la {
     padding-block: 150px;
     font-size: 30px;
-} */
+}
