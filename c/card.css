@@ -1,0 +1,79 @@
+body { 
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+  } 
+   
+  #intro { 
+    height: 772px; 
+    background-image: url("https://preview.colorlib.com/theme/construction/img/header-bg.jpg.webp"); 
+    position: relative; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} 
+#intro::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(24, 22, 22, 0.611); 
+    opacity: 0.65;
+    
+  }
+  .container { 
+   
+    max-width: 1140px; 
+    width: 80%; 
+    margin-inline: auto; 
+} 
+
+.d-flex{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   
+   
+  .content{ 
+    /* margin-top: 20%; 
+    display: flex;
+    flex-direction: column; */
+    text-align: center;
+    width: 760px;
+    color: #fff;
+    h4{
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+    h1{
+        margin-block: 40px;
+        font-weight: 700;
+        font-size: 72px;
+        text-transform: uppercase;
+    }
+    p{
+        margin-bottom: 1rem;
+    }
+  }
+  button{ 
+    border-radius: 25px; 
+    background-color: rgb(249, 228, 41); 
+    border: 1px solid transparent;
+    padding: 0 30px;
+    line-height: 43px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+  }
+  button:hover{
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+  }
+  

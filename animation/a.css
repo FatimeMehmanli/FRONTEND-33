@@ -1,0 +1,76 @@
+body{
+    font-size: 20px;
+    color: aliceblue;
+}
+/* .container{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 20px auto;
+    padding: 50px;
+    transition: background-color 2s,width 3s,color 2s;
+}
+.container:hover{
+    background-color: brown;
+    color: burlywood;
+    width: 400px;
+} */
+.content{
+    position: relative;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    overflow: hidden;
+}
+.container{
+    position: absolute;
+    width: 500px;
+    left: 0;
+    animation: slide 20s infinite;
+    cursor: pointer;
+}
+.container:hover{
+    animation-play-state: paused;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+.item{
+    width:  20vh;
+    float: left;
+    font-size: 30px;
+    color: black;
+}
+@keyframes slide {
+    0% {
+        transform: translateX(0px);
+    }
+    10% {
+        transform: translateX(-500px);
+    }
+    20% {
+        transform: translateX(-500px);
+    }
+    30% {
+        transform: translateX(-1000px);
+    }
+    40% {
+        transform: translateX(-1000px);
+    }
+    50% {
+        transform: translateX(-1500px);
+    }
+    60% {
+        transform: translateX(-1500px);
+    }
+    70% {
+        transform: translateX(-2000px);
+    }
+    80% {
+        transform: translateX(-2000px);
+    }
+    90% {
+        transform: translateX(0px);
+    }
+}

@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1140px;
+    width: 80%;
+    background-color: rgb(225, 222, 222);
+    margin: auto;
+}
+.circle-box{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    overflow: hidden;
+}
+.item {
+    gap: 20px;
+    background-color: dimgrey;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    animation:  boxe .6s ease-in-out alternate infinite;
+
+}
+.item:first-child {
+    animation-delay: 0s;
+}
+.item:nth-child(2){
+    animation-delay: .5s;
+}
+.item:nth-child(3){
+    animation-delay: .2s;
+}
+@keyframes boxe {
+    100% {
+    transform: scale(.6);
+    }
+}
